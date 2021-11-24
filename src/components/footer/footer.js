@@ -18,7 +18,7 @@ export default function Footer(){
     <div className="footer">
       <div className="footCont">
         <span className="copyrightText">
-          Copyright © 2021. Blue Edge. All rights reserved
+          Copyright © 2021. Coderable. All rights reserved
         </span>
         <div className="socialinks">
           <span>Follow me</span>
@@ -26,9 +26,7 @@ export default function Footer(){
             <FontAwesomeIcon icon={faGithub} />
           </a>
           
-          <a href="#" target="_blank">
-            <FontAwesomeIcon icon={faEnvelope} />
-          </a>
+         
           <a href="https://www.behance.net/the-coderable" target="_blank">
             <FontAwesomeIcon icon={faBehanceSquare} />
           </a>
