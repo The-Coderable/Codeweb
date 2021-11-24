@@ -10,14 +10,13 @@ export const IntroCard = (props)=>{
       </div>
       <div className="procode">
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}><span className="cm-keyword">const</span> <span className="cm-def">person</span> <span className="cm-operator">=</span> {"{"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">pseudoName</span>: <span className="cm-string">"Blue"</span>, &nbsp; </span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">lastname</span>: <span className="cm-string">"Edge"</span>,</span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">age</span>: <span className="cm-string">"little more than the age of the earth"</span>,</span></pre>
+        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">pseudoName</span>: <span className="cm-string">"Coderabe"</span>, &nbsp; </span></pre>
+         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">age</span>: <span className="cm-string">"little less than the age of the planet codex"</span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">gender</span>: <span className="cm-string">"Male"</span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">hobbies</span>: [<span className="cm-string">"Breathing"</span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span className="cm-string">"Programming"</span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span className="cm-string">"Playing video Games"</span>,</span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span className="cm-string">"hiding dead bodies"</span>],</span></pre>
+
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">state</span>: <span className="cm-string">"oblivion"</span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">funFact</span>: <span className="cm-string">"sdrawkcab etirw nac I"</span></span></pre>
@@ -69,66 +68,46 @@ export const SocialCard = (props)=>{
       <div className="procode">
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}><span className="cm-keyword">const</span> <span className="cm-def">socialLinks</span> <span className="cm-operator">=</span> {"{"}</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">github</span>: <span className="cm-string">
-          <a className="sociolink" onClick={stoprop} href="https://github.com/blueedgetechno"
-            target="_blank">"github.com/blueedgetechno"</a>
+          <a className="sociolink" onClick={stoprop} href="https://github.com/the-coderable"
+            target="_blank">"github.com/thecoderable"</a>
         </span>,</span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">twitter</span>: <span className="cm-string">
-          <a className="sociolink" onClick={stoprop} href="https://twitter.com/blueedgetechno"
-            target="_blank">"twitter.com/blueedgetechno"
+        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">forem</span>: <span className="cm-string">
+          <a className="sociolink" onClick={stoprop} href="https://forem.dev/thecoderable"
+            target="_blank">"https://forem.dev/thecoderable"
           </a>
           </span>,</span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">codeforces</span>: <span className="cm-string">
-          <a className="sociolink" onClick={stoprop} href="https://codeforces.com/profile/blueedge"
-            target="_blank">"codeforces.com/profile/blueedge"
+        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">gitlab</span>: <span className="cm-string">
+          <a className="sociolink" onClick={stoprop} href="https://gitlab.com/the-coderable"
+            target="_blank">"https://gitlab.com/the-coderable"
           </a>
         </span>,</span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">gmail</span>: <span className="cm-string">
-          <a className="sociolink" onClick={stoprop} href="mailto:blueedgetechno@gmail.com"
-            target="_blank">"blueedgetechno@gmail.com"
-          </a>
-        </span>,</span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">spotify</span>: <span className="cm-string">
-          <a className="sociolink" onClick={stoprop} href="https://open.spotify.com/user/62axxw0etmycj09el078cock0"
-            target="_blank">"../user/62axxw0etmycj09el078cock0"
-          </a>
-        </span>,</span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">behance</span>: <span className="cm-string">
-          <a className="sociolink" onClick={stoprop} href="https://behance.net/blueedgetechno"
-            target="_blank">"behance.net/blueedgetechno"
+        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">bitbucket</span>: <span className="cm-string">
+          <a className="sociolink" onClick={stoprop} href="https://bitbucket.org/the-coderable"
+            target="_blank">"https://bitbucket.org/the-coderable"
           </a>
         </span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">codepen</span>: <span className="cm-string">
-          <a className="sociolink" onClick={stoprop} href="https://codepen.io/blueedgetechno"
-            target="_blank">"codepen.io/blueedgetechno"
+          <a className="sociolink" onClick={stoprop} href="https://codepen.io/the-coderable"
+            target="_blank">"https://codepen.io/the-coderable"
           </a>
         </span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">dev</span>: <span className="cm-string">
-          <a className="sociolink" onClick={stoprop} href="https://dev.to/blueedgetechno"
-            target="_blank">"dev.to/blueedgetechno"
+          <a className="sociolink" onClick={stoprop} href="https://dev.to/thecoderable"
+            target="_blank">"https://dev.to/thecoderable"
           </a>
         </span></span>,</pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">stackoverflow</span>: <span className="cm-string">
+       /* <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">blog</span>: <span className="cm-string">
           <a className="sociolink" onClick={stoprop} href="https://stackoverflow.com/users/12115721/blue-edge"
             target="_blank">"../users/12115721/blue-edge"
-          </a>
-        </span>,</span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">discord</span>: <span className="cm-string">
-          <a className="sociolink" onClick={stoprop} href="https://discord.com/app"
-            target="_blank">"Blue Edge#1017"
-          </a>
-        </span></span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">youtube</span>: <span className="cm-string">
-          <a className="sociolink" onClick={stoprop} href="https://www.youtube.com/channel/UCozhS3MxzCGrPTffh0mqArw"
-            target="_blank">"../channel/UCozhS3MxzCGrPTffh0mqArw"
-          </a>
-        </span></span></pre>
+          </a>*/
+       
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}>{"}"}</span></pre>
       </div>
     </div>
   )
 }
 
-export const ProjectCard = (props)=>{
+/*export const ProjectCard = (props)=>{
   return (
     <div className={"introCard"+props.curState}>
       <div className="circles">
@@ -153,4 +132,4 @@ export const ProjectCard = (props)=>{
       </div>
     </div>
   )
-}
+}*/
