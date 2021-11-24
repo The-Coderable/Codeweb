@@ -38,7 +38,7 @@ export default function Header(){
             <span>
               <a href="https://github.com/the-coderable" target="_blank" rel="noreferrer">Github</a>
             </span>
-            <span><a href="#" target="_blank" rel="noreferrer">Contact</a></span>
+            <span><a href="https://gitter.im/The-Coderable/community" target="_blank" rel="noreferrer">Contact</a></span>
           </div>
           <div className="sideBar">
             <DehazeIcon className="sideIcon" onClick={handleClick}/>
@@ -56,7 +56,7 @@ export default function Header(){
             <MenuItem>
               <a href="https://github.com/blueedgetechno">Github</a>
             </MenuItem>
-            <MenuItem><a href="#">Contact</a></MenuItem>
+            <MenuItem><a href="https://gitter.im/The-Coderable/community">Contact</a></MenuItem>
           </Menu>
         </div>
       </div>
