@@ -128,7 +128,7 @@ export const SocialCard = (props)=>{
 }
 
 
-/*export const ProjectCard = (props)=>{
+export const ProjectCard = (props)=>{
   return (
     <div className={"introCard"+props.curState}>
       <div className="circles">
@@ -153,4 +153,4 @@ export const SocialCard = (props)=>{
       </div>
     </div>
   )
-}*/
+}
