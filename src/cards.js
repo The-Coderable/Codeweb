@@ -10,7 +10,7 @@ export const IntroCard = (props)=>{
       </div>
       <div className="procode">
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}><span className="cm-keyword">const</span> <span className="cm-def">person</span> <span className="cm-operator">=</span> {"{"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">pseudoName</span>: <span className="cm-string">"Coderabe"</span>, &nbsp; </span></pre>
+        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">pseudoName</span>: <span className="cm-string">"Coderable"</span>, &nbsp; </span></pre>
          <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">age</span>: <span className="cm-string">"less than the age of planet codex"</span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">gender</span>: <span className="cm-string">"Male"</span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">hobbies</span>: [<span className="cm-string">"Breathing"</span>,</span></pre>
