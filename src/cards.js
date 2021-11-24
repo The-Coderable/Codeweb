@@ -99,7 +99,7 @@ export const SocialCard = (props)=>{
        /* <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">blog</span>: <span className="cm-string">
           <a className="sociolink" onClick={stoprop} href="https://stackoverflow.com/users/12115721/blue-edge"
             target="_blank">"../users/12115721/blue-edge"
-          </a>*/
+          </a>
        </span></span>,</pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}>{"}"}</span></pre>
       </div>
