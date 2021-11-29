@@ -38,7 +38,7 @@ export default function Header(){
             <span>
               <a href="https://github.com/the-coderable" target="_blank" rel="noreferrer">Github</a>
             </span>
-            <span><a href="https://gitter.im/The-Coderable/community" target="_blank" rel="noreferrer">Chat With Us!</a></span>
+            <span><a href="https://gitter.im/The-Coderable/general" target="_blank" rel="noreferrer">Chat With Us!</a></span>
           </div>
           <div className="sideBar">
             <DehazeIcon className="sideIcon" onClick={handleClick}/>
