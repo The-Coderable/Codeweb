@@ -56,7 +56,7 @@ export default function Header(){
             <MenuItem>
               <a href="https://github.com/blueedgetechno">Github</a>
             </MenuItem>
-            <MenuItem><a href="https://gitter.im/The-Coderable/community">Contact</a></MenuItem>
+            <MenuItem><a href="https://gitter.im/The-Coderable/community">Chat With Us!</a></MenuItem>
           </Menu>
         </div>
       </div>
