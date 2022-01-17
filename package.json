@@ -2,8 +2,8 @@
   "name": "blueweb",
   "version": "0.1.0",
   "private": true,
-  "description": "Blue Edge - Create some chaos",
-  "repository": "https://github.com/blueedgetechno/blueweb",
+  "description": "Coderable - Stay Creative",
+  "repository": "https://github.com/The-Coderable/Codeweb",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
@@ -36,12 +36,10 @@
     "react-scripts": "4.0.0",
     "web-vitals": "^0.2.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && cp build/index.html build/404.html",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
+ "scripts":{
+ "predeploy": "npm run build",
+ "deploy": "gh-pages -d build",
+},
   "eslintConfig": {
     "extends": [
       "react-app",
