@@ -32,7 +32,8 @@ export default function Header(){
         <div className="headNav">
           <div className="navList">
             <span>
-              <Link to="/">Home</Link>
+              <a href="https://rubiks.coderable.studio" target="_blank" rel="noreferrer">Rubiks🎮</a>
+            
             </span>
            
             <span>
@@ -54,9 +55,9 @@ export default function Header(){
             <MenuItem><Link to="/">Home</Link></MenuItem>
             
             <MenuItem>
-              <a href="https://github.com/blueedgetechno">Github</a>
+              <a href="https://github.com/the-coderable">Github</a>
             </MenuItem>
-            <MenuItem><a href="https://gitter.im/The-Coderable/community">Chat With Us!</a></MenuItem>
+            <MenuItem><a href="https://gitter.im/The-Coderable/general">Chat With Us!</a></MenuItem>
           </Menu>
         </div>
       </div>
