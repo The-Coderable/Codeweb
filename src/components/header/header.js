@@ -32,7 +32,7 @@ export default function Header(){
         <div className="headNav">
           <div className="navList">
             <span>
-              <a href="https://rubiks.coderable.studio" target="_blank" rel="noreferrer">Rubiks🎮</a>
+              <a href="https://rubiks.coderable.studio" target="_blank" rel="noreferrer">Rubiks <FontAwesomeIcon icon={faGamepad}/></a>
             
             </span>
            
